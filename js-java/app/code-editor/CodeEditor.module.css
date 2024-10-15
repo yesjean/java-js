@@ -1,0 +1,80 @@
+/* app/code-editor/CodeEditor.module.css */
+
+.container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .nav {
+    width: 200px;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f7f7f7;
+    overflow: scroll;
+    min-width: 200px;
+  }
+  
+  .nav h2 {
+    margin-top: 0;
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nav ul li {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .nav ul li:hover {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+  }
+
+.nav li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: lightblue; /* 선택된 항목 배경색 */
+  border-radius: 4px;
+}
+
+.nav li ul {
+  padding-left: 20px; /* 하위 메뉴 여백 */
+}
+  .editorContainer {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .editorHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .selectLanguage {
+    margin-bottom: 20px;
+  }
+  
+  .outputContainer,
+  .logsContainer {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .outputContainer h4,
+  .logsContainer h4 {
+    margin: 10px 0;
+  }
+  

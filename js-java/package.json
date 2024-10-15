@@ -1,0 +1,31 @@
+{
+  "name": "js-java-converter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
+    "codemirror": "^5.65.18",
+    "js-to-java": "^2.8.0",
+    "next": "14.2.15",
+    "react": "^18",
+    "react-codemirror2": "^8.0.0",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/codemirror": "^5.60.15",
+    "@types/js-to-java": "^2.7.4",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
+    "typescript": "^5"
+  }
+}
